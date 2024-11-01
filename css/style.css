@@ -1,12 +1,12 @@
 body {
     background-color: #62778097;
-    font-family: "Noto Sans Japanese", sans-serif 
+    font-family: "Noto Sans Japanese", sans-serif; 
     max-width: 100%;
     overflow-x: hidden; 
 }
 
   header {
-    background-color: #37474f !important; /* Replace with any color code */
+    background-color: #37474f !important; 
 }
 
 /* Navbar edits */
