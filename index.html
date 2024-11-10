@@ -3,69 +3,93 @@
 <head>
   <title>Project 2 - Terence Cheng</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-</head>
+</head> 
+
+<body>
 
 <!-- Navbar -->
-<body>
-  <header class="d-flex justify-content-center py-3">
-    <ul class="nav nav-pills">
-      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Commissions</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
-    </ul>
-  </header>
+<header class="py-3">
+    <nav class="container">
+        <ul class="nav nav-pills justify-content-center gap-2">
+        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="profile.html" class="nav-link">Profile</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li class="nav-item w-100 d-md-none"></li>
+        <li class="nav-item"><a href="commissions.html" class="nav-link">Commissions</a></li>
+        <li class="nav-item"><a href="contact me.html" class="nav-link">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
 
 <div class="p-3">
     <div class="container-fluid py-2">
         <h1 class="display-3 fw-bold text-center">Terence Cheng</h1>
-        <p class="fs-5 text-center">Music Enthusiast | Video editor | Artist</p>
+        <p class="fs-5 text-center">Music Enthusiast | eSports | Artist</p>
     </div>
 </div>
 
 <!-- Jumbotron -->
-<div class="row mt-auto">
-    <div class="col-md-5 mx-auto">
-        <div class="card border-0 shadow">
-            <div class="card-body text-center">
-                <h5 class="card-title text-center">"Starless Sunrise"</h5>
-                <img class="img-fluid mb-2" src="images/starlesssunrise.jpg" alt="starlesssunrise">
-                <p>Terence Cheng, Pastel, Fall 2017</p>          
-            </div>
+<div class="container">
+
+<div class="row-cols-1 mx-auto mb-3">
+    <div class="card shadow">
+        <div class="card-body text-center">
+            <h5>"Starless Sunrise"</h5>
+            <img class="img-fluid py-2" src="images/starlesssunrise.jpg" width="1000" height="auto" alt="starlesssunrise">
+            <p class="card-text m-1">Terence Cheng, Pastel, Fall 2017.</p>
         </div>
     </div>
 </div>
 
-<div class="container py-5">
 <div class="row row-cols-1 row-cols-md-2">
 
 <div class="col">
-    <div class="card h-100 shadow">
+    <div class="card shadow">
         <div class="card-body text-center">
-            <h5 class="card-title">"Dumb Disease 7"</h5>
-        <iframe class="card-img-top p-2" width="600" height="400" src="https://www.youtube.com/embed/HDqLSomEQh4" title="dumb disease 7!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p class="card-text m-1">My 7th Iteration of a short, simple & fun montage series that I made over the years.</p>
+            <h5>"Canadian Draft Cup 2024 (Finals) Personal Highlights"</h5>
+        <iframe class="card-img-top p-2" width="600" height="385" src="https://www.youtube.com/embed/AmplUh9JSXQ" title="Canadian Draft Cup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p class="card-text m-1">A short video compilation of some highlights from one of my matches in a game called osu!; showcasing my teamwork and individual skill.</p>
         </div>
     </div>
 </div>
 
 <div class="col">
-    <div class="card h-100 shadow">
+    <div class="card shadow">
         <div class="card-body text-center">
-            <h5 class="card-title">"Effloresce"</h5>
+            <h5>"Effloresce"</h5>
         <img class="img-fluid py-2" src="images/effloresce.jpg" width="400" height="auto" alt="effloresce">
         <p class="card-text m-1">One of my favourite Math Rock albums.</p>
         </div>
     </div>
 </div>
-
 </div>
 </div>
 
-<p class="text-justify"></p>
+<!-- Footer -->
+<div class="container mt-4">
+    <div class="line rounded"></div>
+</div>
+<footer class="footer mt-auto">
+    <div class="d-flex justify-content-center gap-4">
+        <a href="https://www.youtube.com/@coconut7" target="_blank" class="text-decoration-none">
+            <i class="bi-youtube social-icon"></i>
+        </a>
+        <a href="https://www.instagram.com/terence_cheng7" target="_blank" class="text-decoration-none">
+            <i class="bi-instagram social-icon"></i>
+        </a>
+        <a href="https://www.reddit.com/u/ztimpy" target="_blank" class="text-decoration-none">
+            <i class="bi-reddit social-icon"></i>
+        </a>
+        <a href="https://github.com/coconut727" target="_blank" class="text-decoration-none">
+            <i class="bi-github social-icon"></i>
+        </a>
+    </div>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
