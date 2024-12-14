@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Project 2 - Terence Cheng</title>
+    <title>Project 2 (Contact Me)- Terence Cheng</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
     
 <!-- Navbar -->
@@ -17,11 +16,145 @@
     <nav class="container">
         <ul class="nav nav-pills justify-content-center gap-2">
             <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="profile.html" class="nav-link" aria-current="page">Profile</a></li>
-            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="profile.html" class="nav-link">Profile</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Portfolio</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="photography.html">Photography</a></li>
+                    <li><a class="dropdown-item" href="esports.html">eSports</a></li>
+                    <li><a class="dropdown-item" href="artwork.html">Artwork</a></li>
+                </ul>
+            </li>
             <li class="nav-item w-100 d-md-none"></li>
             <li class="nav-item"><a href="commissions.html" class="nav-link">Commissions</a></li>
-            <li class="nav-item"><a href="contact me.html" class="nav-link active" aria-current="page">Contact Me</a></li> 
+            <li class="nav-item"><a href="contact me.html" class="nav-link active" aria-current="page">Contact Me</a></li>
         </ul>
     </nav>
 </header>
+
+<!-- Back to top button -->
+<button type="button" class="btn btn-floating btn-lg" id="backtotop">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- Form -->
+<div class="container py-3">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h2 class="text-center mb-4">Contact Form</h2>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <textarea class="form-control" id="message" rows="1" placeholder="Subject of message..." required></textarea>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="" required></textarea>
+                        </div>
+                            <p class="form-label text-center">If you are contacting me about commissions, <br> please read the F.A.Q in the commissions page before sending the message.</p>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary" style="background-color: #ff80ab; border-color: #ff80ab; color: #1c4e67;">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- table -->
+<div class="container pb-3">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow">
+          <div class="card-body">
+            <h2 class="text-center mb-4">Social Media</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Social Media</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody class="justify-content-center">
+                <tr>
+                  <td><a href="https://www.youtube.com/@coconut7" target="_blank" class="text-decoration-none"  style="color: #bd3e68;">Youtube</a></td>
+                  <td>Relatively active here. I upload videos once in a while, sometimes I wont upload anything for weeks or months though.</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.instagram.com/terence_cheng7" target="_blank" class="text-decoration-none" style="color: #bd3e68;">Instagram</a></td>
+                  <td>Most active here, I'm always talking with friends through here.</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.reddit.com/u/ztimpy" target="_blank" class="text-decoration-none" style="color: #bd3e68;">Reddit</a></td>
+                  <td>Relatively active here. I check on reddit at least once a week to view my favourite subreddits.</td>
+                </tr>
+                <tr>
+                  <td><a href="https://github.com/coconut727" target="_blank" class="text-decoration-none" style="color: #bd3e68;">Github</a></td>
+                  <td>Relatively inactive here. Currently just thinking about projects to do as of now. 
+                    I am only active once i partake in projects that im interested in.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="d-flex justify-content-center gap-4 mb-2">
+        <a href="https://www.youtube.com/@coconut7" target="_blank" class="text-decoration-none">
+            <i class="bi-youtube social-icon"></i>
+        </a>
+        <a href="https://www.instagram.com/terence_cheng7" target="_blank" class="text-decoration-none">
+            <i class="bi-instagram social-icon"></i>
+        </a>
+        <a href="https://www.reddit.com/u/ztimpy" target="_blank" class="text-decoration-none">
+            <i class="bi-reddit social-icon"></i>
+        </a>
+        <a href="https://github.com/coconut727" target="_blank" class="text-decoration-none">
+            <i class="bi-github social-icon"></i>
+        </a>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="#" target="_blank" class="text-decoration-none">
+            <p class="social-text">📧: terencecheng727@gmail.com</p>
+        </a>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="#" target="_blank" class="text-decoration-none">
+            <p class="social-text">📱: 647-887-6158</p>
+        </a>
+    </div>
+    <div class="d-flex justify-content-center gap-3">
+        <a href="#" target="_blank" class="text-decoration-none">
+            <p class="social-text">Privacy Policy</p>
+        </a>
+        <a href="#" target="_blank" class="text-decoration-none">
+            <p class="social-text">Social Media Policy</p>
+        </a>
+        <a href="#" target="_blank" class="text-decoration-none">
+            <p class="social-text">Terms of Use</p>
+        </a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/backtotop.js"></script>
+</body>
+</html>
